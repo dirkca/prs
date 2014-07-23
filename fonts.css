@@ -1,0 +1,29 @@
+@font-face{
+    font-family:'AmbleRegular';
+    src:url([[font:theme|amble-regular-webfont.eot]]) format("embedded-opentype"),
+    url([[font:theme|amble-regular-webfont.woff]]) format("woff"),
+    url([[font:theme|amble-regular-webfont.ttf]])  format("truetype"),
+    url([[font:theme|amble-regular-webfont.svg]]) format("svg");
+    font-weight:normal;
+    font-style:normal;
+    } 
+    
+@font-face{
+    font-family:'AmbleBold';
+    src:url([[font:theme|amble-bold-webfont.eot]]) format("embedded-opentype"),
+    url([[font:theme|amble-bold-webfont.woff]]) format("woff"),
+    url([[font:theme|amble-bold-webfont.ttf]])  format("truetype"),
+    url([[font:theme|amble-bold-webfont.svg]]) format("svg");
+    font-weight:normal;
+    font-style:normal;
+    }
+@font-face {
+    font-family: "open_sans_condensedbold";
+    src:url([[font:theme|opensans-condbold-webfont.eot]]) format("embedded-opentype"),
+    url([[font:theme|opensans-condbold-webfont.woff]]) format("woff"),
+    url([[font:theme|opensans-condbold-webfont.ttf]])  format("truetype"),
+    url([[font:theme|opensans-condbold-webfont.svg]]) format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,0 +1,211 @@
+
+@media only screen and (max-width : 1000px) {
+    #enticers {
+        padding: 40px 0 20px;
+    }
+    #enticers a.enticer_item {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        display:-moz-inline-stack;
+        display:inline-block;
+        zoom:1;
+        *display:inline;
+        width:30%;
+        margin: 0 1% 20px;
+        width: 285px;
+    }
+    #enticers a.enticer_item img{
+        width: 280px;
+    }
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+        margin-left: 0;
+        margin-right: 0;
+    }
+     .editor_atto {
+        width: 99%;
+    }
+    .fcontainer.clearfix,.ftoggler,#id_maildisplay  {
+        width: 90%;
+    }
+    
+}
+   
+
+@media only screen and (max-width : 950px) { 
+        
+    #enticers a.enticer_item img {
+        width: 260px;
+    }
+    #enticers a.enticer_item {
+        width: 265px;
+    }
+    #page-cont {
+        padding-left: 0;
+        padding-right: 0;
+    }
+      
+} 
+ 
+@media only screen and (max-width : 880px) {
+    
+    #enticers a.enticer_item,#enticers a.enticer_item img {
+        width:200px;
+    }
+    #enticers a.enticer_item {
+        width: 205px;
+    }
+    #page-footer .footer_logo {
+        width: 31.33%;
+        margin: 0 1%;
+        float: left;
+    }
+
+   #page-footer .connect {
+        width: 31.33%;
+        margin: 0 1%;
+        float: left;
+    }
+
+    #page-footer .footer-center {
+        width: 31.33%;
+        margin: 4% 1%;
+        float: left;
+    }
+    .form-item .form-setting, .form-item .form-description, .mform .fitem .felement, #page-mod-forum-search .c1 {
+        width: 380px;
+    }
+    
+    .form-textarea textarea {
+        width: 380px;
+    } 
+} 
+@media only screen and (max-width : 767px) {
+    body{
+        padding-right:0px;
+        padding-left:0px
+    }
+   /* #page-cont{
+        padding-right:20px;
+        padding-left:20px
+    }  */
+}
+@media only screen and (max-width : 720px) {
+
+    #page-footer .footer_logo {
+        display:none;
+    }
+    #page-footer .footer-center {
+    float: left;
+    margin: 1.5% 0;
+    width: 60%;
+    }
+    
+    #page-footer h3 {
+        margin: 0 0 10px;
+        font-size:20px;
+    }
+
+   #page-footer .connect {
+        width: 40%;
+        margin: 0;
+        float: left;
+    }
+    #page-footer .connect a.alias {
+        right: 40px;
+         top: -15px;
+    }
+    #enticers a.enticer_item, #enticers a.enticer_item img {
+        width: 180px;
+    }
+    #enticers a.enticer_item {
+        width: 185px;
+    }
+     #page-footer .connect a.alias {
+        display: none !important;
+    }
+    #page #region-main h2 {
+        font-size: 1.5em;
+        line-height: 28px;
+        padding-left: 7px;
+    }
+}
+@media only screen and (max-width : 620px) {
+   #page-footer {
+        padding: 50px 0 30px;
+    }
+    #content #enticers a.enticer_item {
+        width:70%;
+        margin: 0 15% 20px;
+    }
+    #enticers a.enticer_item {
+        width: 300px;
+    }
+    #enticers a.enticer_item img{
+        width: 294px;
+    }
+    
+    
+}
+@media only screen and (max-width : 500px) {
+    #page-footer .footer-center {
+        margin: 3% 0;
+    }
+    .form-item .form-setting, .form-item .form-description, .mform .fitem .felement, #page-mod-forum-search .c1 {
+        width: 250px;
+    }
+    
+    .form-textarea textarea {
+        width: 250px;
+    }
+   
+    
+  
+} 
+@media only screen and (max-width : 400px) {
+
+    #page-footer .footer-center,#page-footer .connect
+    {
+        width: 100%;
+        clear:both;
+        text-align:center;
+    }
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .fcontainer.clearfix, .ftoggler, #id_maildisplay {
+        width: 75%;
+    }
+    .fitem_fselect  select  {
+        width: 70%;
+    }
+    
+} 
+@media only screen and (max-width : 300px) {
+
+    #enticers a.enticer_item {
+        width:250px;
+    }
+    #enticers a.enticer_item img{
+        width: 245px;
+    }
+    
+    /*#region-main {
+        float: none;
+        padding-left: 3px;
+        padding-right: 3px;
+    }*/
+
+}
+@media only screen and (min-width : 970px) { 
+    .cont2 {
+        margin: 0 auto;
+        max-width: 1000px;
+        position: relative;
+        width: 1000px;
+    }
+    #header #banner_images .img3 {
+        right: 67px !important;
+    }
+}

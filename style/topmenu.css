@@ -1,0 +1,438 @@
+/* !HEADER */
+.h-cont{
+  margin: 0 auto;
+  max-width: 900px;
+  position: relative;
+  width: 900px;
+}
+.h-cont2{
+  margin: 0 auto;
+  max-width: 800px;
+  position: relative;
+  width: 800px;
+}
+#header {
+  width: 100%;
+  padding: 0;
+  background: url([[pix:theme|header-bg]]);
+  position: relative;
+  z-index: 2; 
+}
+#header #quicklinks {
+  width: 100%;
+  height: 36px;
+  background: url([[pix:theme|quicklinks-x-tile]]) repeat-x 0 0;
+  position: relative;
+  z-index: 110; 
+} 
+#header #quicklinks ul {
+  padding: 0 0 0 38px;
+  display: inline-block;
+  float: right;
+  background: url([[pix:theme|quicklinks-left-end]]) no-repeat 0 0;
+  font-weight: 500;
+  line-height: 22px; 
+}
+#header #quicklinks ul li { 
+  margin: 0;
+  font-size: 0.875em;/*14px/16*/
+  font-weight: 700;
+  text-shadow: 0 1px 0 #fff;
+  display: inline-block;
+  float: right; 
+}
+#header #quicklinks ul li.first {
+  padding: 9px 27px 5px 15px;
+  background: #f2f2f2; 
+}
+#header #quicklinks ul li.last a {
+  border-radius: 0 0 6px 0; 
+}
+#header #quicklinks ul li a:hover {
+  background: #e3e3e3;
+  color: #4284e0; 
+}
+#header #quicklinks ul li a {
+  padding: 9px 27px 5px;
+  border-left: 1px solid #dbdbdb;
+  display: block;
+  background: #f2f2f2;
+  font-size: 14px; 
+}
+#header #quicklinks ul li.children ul { 
+    background: url([[pix:theme|dropdown_arrow_top]])  30px 7px no-repeat; 
+    display: block; 
+    position: absolute; 
+    top: 36px; 
+    z-index: 100; 
+    padding: 18px 0 0 0;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -moz-box-shadow: 0 2px 0 rgba(10,10,10,.17);
+    -webkit-box-shadow: 0 2px 0 rgba(10,10,10,.17);
+    box-shadow: 0 2px 0 rgba(10,10,10,.17); 
+}
+#header #quicklinks ul li.children ul li { 
+    float: left; 
+    width: 100%; 
+    clear: both; 
+    background: #4797ff; 
+    text-align: left; 
+    padding: 0; 
+}  
+#header #quicklinks ul li.children ul li.first { 
+    padding-top: 10px;
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0; 
+}
+#header #quicklinks ul li.children ul li.last 
+{ 
+    padding-bottom: 10px;
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px; 
+}
+#header #quicklinks ul li.children ul li.first.last { 
+    padding-bottom: 10px; 
+    padding-top: 10px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px; 
+}
+#header #quicklinks ul li.children ul li a { 
+    background: #4797ff; 
+    border-left: 10px solid #4797ff;
+    color: #fcfcfc; 
+    font-size: 14px; 
+    font-weight: bold; 
+    text-shadow: 0 -1px 0 rgba(20,2,7,.5); 
+    padding: 6px 26px 4px 16px; 
+}
+#header #quicklinks ul li.children ul li a:hover { border-color: #d5ca3a; background: #3f84df; }
+
+#header #quicklinks .select_contain {
+  height: 36px;
+  display: inline-block;
+  display: none; 
+}
+#header #quicklinks .quicklinks_select {
+  height: 36px;
+  background-color: transparent;
+  display: inline-block;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  position: relative;
+  z-index: 1;
+  text-indent: -9000px; }
+#header #quicklinks .select_mask { padding: 9px 27px 5px; color: #4284e0; border-left: 1px solid #dbdbdb; display: block; background: #f2f2f2; font-size: 14px;  margin: -36px auto 0px auto; pointer-events: none; position: relative; z-index: 1; cursor: pointer; }
+#header #quicklinks #staff .quicklinks_select {
+  width: 88px; }
+#header #quicklinks #parents .quicklinks_select {
+  width: 108px; }
+#header #quicklinks #students .quicklinks_select {
+  width: 117px; }
+#header #quicklinks #school_websites .quicklinks_select {
+  width: 165px; }
+/******************************************/
+#header .logo_and_nav {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 170px;
+  position: relative;
+  z-index: 100; }
+#header .logo_and_nav #logo {
+  width: 149px;
+  height: 149px;
+  margin: 0 0 0 20px;
+  top: 20px;
+  position: absolute;
+  text-indent: -9000px;
+  background: url([[pix:theme|logo-palliser]]) no-repeat 0 0;
+  float: left; 
+}
+#header .logo_and_nav  #main_nav2 {
+    float: right;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+#header .logo_and_nav  #main_nav2 .navbar-text {
+    color: #fff;
+    line-height: 40px;
+    list-style: none outside none;
+    margin-bottom: 0;
+     font-weight: normal;
+    font-size: 1.125em;
+    text-shadow: 0 -1px 0 rgba(43,97,170,.5); 
+}
+#header .logo_and_nav .menu-toggle {
+  display:none; }
+#header .logo_and_nav #logo a { display: block; width: 149px; height: 149px; }
+#header .logo_and_nav #main_nav {
+  float: right; 
+
+  }
+  /*************************************/ 
+#header #banner_images { position: relative; height: 255px; margin: 0 0 0 0; overflow: hidden; z-index: 0; }
+#header #banner_images #banner_overlay { width: 100%; height: 100%; position: absolute; z-index: 20;
+-moz-box-shadow: inset 0 -8px 10px rgba(10,10,10,.15);
+-webkit-box-shadow: inset 0 -8px 10px rgba(10,10,10,.15);
+box-shadow: inset 0 -8px 10px rgba(10,10,10,.15); }
+#header #banner_images img {  background-color: #fff; padding: 13px; position: absolute; display: block;
+-moz-box-shadow: 0 3px 3px rgba(10,10,10,.8);
+-webkit-box-shadow: 0 3px 3px rgba(10,10,10,.8);
+box-shadow: 0 3px 3px rgba(10,10,10,.8); }
+
+#header #banner_images .img1 { left: 0; top: 375px; }
+#header #banner_images .img2 { left: 243px; top: 390px;width: 361px; }
+#header #banner_images .img3 { right: 0; top: 375px;   width: 320px; }
+
+
+
+/****************************/
+@media only screen and (max-width : 930px) {
+    .h-cont,.h-cont2 {
+        width: 100%;
+    }
+    #header {
+        width: 100%;
+        padding: 0;
+    }
+
+    #header #quicklinks {
+        text-align:center;
+        height:auto;
+        background:#f2f2f2;
+    }
+
+    #header #quicklinks .h-cont {
+        height: 42px;
+    }  
+
+    #header #quicklinks ul {
+        padding: 0;
+        display:-moz-inline-stack;
+        display:inline-block;
+        zoom:1;
+        *display:inline;
+        float: none;
+        background: none;
+        margin:0;
+    }
+
+    #header #quicklinks ul li.first {
+        padding: 0 20px;
+        font-size: 14px;
+        line-height: 42px;
+    }
+
+    #header #quicklinks ul li a {
+        padding: 0 20px;
+        border-left: 1px solid #DBDBDB;
+        font-size: 14px;
+        line-height: 42px;
+    }
+
+    #header .logo_and_nav {
+        padding:0;
+    }
+
+    #header .logo_and_nav #logo {
+        width: 149px;
+        height: 149px;
+        margin: 0;
+        text-indent: -9000px;
+        background: url([[pix:theme|logo-palliser]]) no-repeat 0 0;
+        float: left;
+    }
+}  
+
+
+           
+@media only screen and (max-width : 800px) {
+    #header #quicklinks .h-cont {
+        height: 42px;
+        margin: 0;
+    }
+    #header #quicklinks {
+        background: transparent;
+        padding-bottom: 5px;
+    }
+
+    #header #quicklinks .collapsed {
+        display:none !important;
+    }
+
+    #header #quicklinks ul {
+        background:#f2f2f2;
+        width:100%;
+        padding: 0;
+    
+    }
+   #header #quicklinks ul > li {
+        float:none;
+    }
+
+    #header #quicklinks ul > li.first {
+        display:none;
+    }
+
+    #header #quicklinks ul  li.sw  a {
+        display:none;
+    } 
+    #header #quicklinks ul li a {
+        border-left: 0 solid #dbdbdb;
+        font-weight: normal;
+    }
+  
+    #header #quicklinks ul  li a:hover {
+        text-decoration: none;
+        background: transparent;
+    }  
+
+     #header #quicklinks .select_contain {
+        display:-moz-inline-stack;
+        display:inline-block;
+        zoom:1;
+        *display:inline;
+        padding:0;
+        margin:0;
+        width:auto;
+    }
+
+    #header #quicklinks #school_websites .quicklinks_select {
+        width: 155px;
+    }
+
+    #header #quicklinks #students .quicklinks_select {
+        width: 85px;
+    }
+
+    #header #quicklinks #parents .quicklinks_select {
+        width: 65px;
+    }
+
+    #header #quicklinks #staff .quicklinks_select {
+        width: 65px;
+    }
+
+    #header #quicklinks .select_mask {
+        border:none;
+        font-weight:normal;
+        background:transparent;
+        padding: 9px 0 5px;
+    }
+    #header .cont-h {
+        width: 100%;
+        margin: 0;
+    }
+
+    #header .logo_and_nav {
+        padding: 30px 0 0;
+        height: auto;
+    }
+    #header .logo_and_nav #logo {
+        top: 0;
+        margin: 0 auto 30px;
+        float: none;
+        position:relative;
+    }
+
+   #header .logo_and_nav #main_nav2 {
+        float: none;
+        margin-right: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+    #header .logo_and_nav #main_nav2 ul {
+        margin: 0;
+        padding: 0;
+    }    
+    #header #banner_images {
+        display:none;
+    }
+    
+    header.navbar .navbar-inner {
+        background: #0a275f;
+        color: #fff;
+        display: block;
+        font-size: 1.15em;
+        letter-spacing: 1px;
+        text-align: center;
+        border-width: 0;
+    }
+    .navbar .brand {
+        color: #fff;
+        float: none;
+        text-shadow: none;
+        display: inline-block;
+        margin:0;
+        padding-top: 10px;
+        
+    }
+    .navbar .btn-navbar {
+        display: inline-block;
+        float: none;
+        margin-top: 0;
+        background-color: transparent;
+        background-image: none;
+        border: 0 none;
+        box-shadow: none;
+        text-shadow: none;
+    }
+   
+   .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
+        background-color: transparent;
+        color: #fff;
+    }
+    .nav-collapse.active {
+        background: none repeat scroll 0 0 #0b337c;
+        color: #fff;
+        height: auto;
+    }
+    .nav-collapse .nav  li  a {
+        color: #fff;
+        font-weight: normal;
+        text-shadow: none;
+    }
+    .navbar .nav li.dropdown.open  .dropdown-toggle, .navbar .nav li.dropdown.active  .dropdown-toggle, .navbar .nav li.dropdown.open.active  .dropdown-toggle {
+        background-color: transparent;
+        color: #fff;
+        font-weight: normal;
+        text-shadow: none;
+    }
+
+    .navbar .nav li.dropdown.open  .dropdown-toggle .caret, .navbar .nav li.dropdown.active  .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active  .dropdown-toggle .caret,.navbar .nav li.dropdown  .dropdown-toggle .caret ,.nav li.dropdown.open .caret, .nav li.dropdown.open.active .caret, .nav li.dropdown.open a:hover .caret, .nav li.dropdown.open a:focus .caret,.navbar .nav li.dropdown  a:hover .caret, .navbar .nav li.dropdown  a:focus .caret {
+        border-bottom-color: #fff;
+        border-top-color: #fff;
+    }
+    
+    .nav-collapse .nav  li  a:hover, .nav-collapse .nav  li  a:focus, .nav-collapse .dropdown-menu a:hover, .nav-collapse .dropdown-menu a:focus, .nav-collapse .dropdown-submenu a:focus, .nav-collapse .dropdown-submenu a:hover, .nav-collapse .dropdown-submenu a:active, .nav-collapse .dropdown-menu  li  a:hover, .nav-collapse .dropdown-menu  li  a:focus {
+        background-image: none;
+        color: #fff;
+        background-color: transparent;
+    }
+}
+@media only screen and (max-width : 471px) {
+
+    #header .logo_and_nav {
+        padding: 70px 0 0;
+        height: auto;
+    }
+
+}
+@media only screen and (max-width : 375px) {
+
+    #header .logo_and_nav {
+        padding: 40px 0 0;
+    }
+
+    #header #quicklinks {
+        padding-bottom: 40px;
+    }
+   
+}

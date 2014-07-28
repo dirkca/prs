@@ -1,0 +1,224 @@
+.clearfix2:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}
+.page-h{
+    background:#eee;
+    border-bottom:1px solid #d4d4d4;
+}
+.page-h .container-h {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1020px;
+    padding: 0 2.5%;
+}
+.page-h .logininfo {
+    text-align: right;
+}
+
+/***************************************************************/
+.menu-toggle {
+    background-color: #414141;
+    color: #fff;
+    display: none;
+    font-family: 'AmbleBold',Helvetica,Arial,sans-serif;
+    font-size: 1.1em;
+    padding: 25px 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+}
+.menu-toggle:hover, .menu-toggle:focus {
+    color: #fff;
+    text-decoration: none;
+}
+.menu-toggle span{
+    background:url([[pix:theme|navigation-icon]]) no-repeat right -3px;
+    padding-right:23px;
+}
+.primary-navigation
+{
+    background-color:#414141;
+    border-bottom:7px solid #f5962e;
+}
+
+.primary-navigation ul{
+    margin: 0 5px 0 0;
+    text-align:center;
+    list-style: none outside none;
+} 
+.primary-navigation li{
+    display:-moz-inline-stack;
+    display:inline-block;
+    zoom:1;
+    *display:inline;
+    margin-left:-4px;
+    position:relative;
+    line-height: 17px;
+} 
+.primary-navigation li a{
+    display:block;
+    padding:15px;
+    color:#fff;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'AmbleBold', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;
+    font-size:1.05em;
+} 
+.primary-navigation li a:hover
+{
+    background:rgba(0,0,0,0.2)
+}
+.primary-navigation .dropdown-toggle{
+    position:absolute;
+    display:none;
+    background:rgba(255,255,255,0.03);
+    width:20px;
+    top:0;
+    right:0;
+}  
+.secondary-navigation{
+    display:none;
+}
+.secondary-navigation ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+} 
+.secondary-navigation li{
+    text-align:left;
+}
+.secondary-navigation li a{
+    background:#676767;
+}
+/***************************************************************/
+.school-brand {
+    display: table;
+    float: left;
+    margin: 0;
+    overflow: hidden;
+    width: 75%;
+}
+.school-logo {
+    float: left;
+    height: 160px;
+    position: relative;
+    text-align: center;
+    width: 160px;
+    display: table-cell;
+    padding: 0 2em;
+    vertical-align: middle;
+}
+.school-logo .full-logo {
+    display: table-cell;
+    height: 170px;
+    left: 0;
+    overflow: hidden;
+    padding-left: 20px;
+    position: relative;
+    top: 0;
+    vertical-align: middle;
+}
+.school-logo .full-logo a, .school-logo .full-logo img {
+    display: block;
+    float: left;
+    max-width: 100%;
+    overflow: hidden;
+}
+.school-name {
+    font-family: open_sans_condensedbold,'droid_serifregular';
+    font-size: 49px !important;
+    line-height: 69px;
+    color: #1f557a;
+    display: table-cell;
+    font-size: 2.7em;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.school-contact {
+    border-left: 1px solid #cecece;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-font-smoothing:antialiased;
+    color: #28292d;
+    float: right;
+    font-family: 'AmbleRegular',Helvetica,Arial,sans-serif;
+    font-size: 0.9em;
+    line-height: 1.35em;
+   /* margin: 75px 0 0;*/
+    margin: 33px 0 0;
+    overflow: hidden;
+    padding: 10px 20px;
+    text-align: left;
+    width: 25%;
+}
+.school-contact .url, .school-contact .country-name {
+    display: none;
+}
+.school-contact p {
+    margin: 0;
+    font-size: 1.05em;
+    line-height: 1.5em;
+}
+.school-contact .street-address, .school-contact .locality, .school-contact .tel.phone, .school-contact .fax {
+    clear: left;
+    float: left;
+}
+.school-contact .region, .school-contact .postal-code {
+    float: left;
+    padding: 0 4px;
+}
+
+@media only screen and  (max-width: 350px){
+    .school-name{word-break:break-all;padding:0 !important;}
+    .page-h .logininfo{text-align: center;}
+    .school-logo {margin-top: 20px;}
+    .school-contact {padding: 0px 20px;}  
+    } 
+@media (max-width: 600px){
+    .school-logo{width:100%;text-align:center;display:block;padding:0;margin-bottom:0.5em}
+    .school-name{font-size:1.75em !important;display:block;text-align:center;padding:0 1em;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+    .school-logo .full-logo a,.school-logo .full-logo img{max-width:100%}    
+}
+@media only screen and (max-width: 630px){
+    .school-logo{width:100%;text-align:center;height:auto;}
+    .school-logo .full-logo{position:relative;top:auto;left:auto;width:20%;height:auto;display:inline-block}
+    .school-name{text-align:center;width:100%;margin:20px 0;font-size:1.6em !important;display:block;padding-left:0px !important}
+    .school-logo .full-logo a,.school-logo .full-logo img{width:100%}}
+    }
+    
+@media only screen and (max-width: 740px){.school-name{font-size:1.4em !important}}
+@media only screen and (max-width: 750px){
+    .school-brand{margin:0;width:100%}
+    .school-contact p,.school-contact span,.school-contact .street-address,.school-contact .locality,.school-contact .tel.phone,.school-contact .fax,.school-contact .region,.school-contact .postal-code{display:inline;padding-right:5px;float:none;clear:none}
+    .school-contact{float:left;clear:both;border:none;width:100%;margin:0 0 20px;text-align:center}
+    
+    } 
+
+
+
+@media only screen and (max-width: 780px)
+{
+    .menu-toggle{display:block}
+    .primary-navigation{display:none}
+    .primary-navigation ul{margin:0;text-align:center}
+    .primary-navigation li{display:block;width:100%;margin:0;background:#535353}
+    .primary-navigation li a{font-family:'AmbleRegular', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased}
+    .primary-navigation .dropdown-toggle{display:block}
+    .primary-navigation .container-h{padding:0}
+    .primary-navigation.toggled {display: block;}
+    .secondary-navigation{display:none;position:relative;top:auto;width:auto}
+    .secondary-navigation li{text-align:center}
+    .secondary-navigation li a {background: none repeat scroll 0 0 #676767;font-family: 'AmbleRegular',Helvetica,Arial,sans-serif;}
+    
+}
+@media only screen and (min-width: 781px){
+    .primary-navigation .children:hover a{background:#2f2f2f;color:#fff}
+    .primary-navigation .children:hover a:hover{background:#161616}
+    .primary-navigation .children:hover .secondary-navigation{display:block;position:absolute;top:46px;margin-left:0;z-index:500;width:175px}
+    .primary-navigation .children:hover .secondary-navigation li{float:left;clear:left;margin-left:0;width:100%;font-size:0.8em}
+    .primary-navigation .children:hover .secondary-navigation li a:hover{background:#161616}
+}
+
+
+  

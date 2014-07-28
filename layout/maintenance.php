@@ -51,7 +51,7 @@ echo $OUTPUT->doctype() ?>
                 <img alt="palliser schools" src="<?php echo $OUTPUT->pix_url('footer-logo','theme') ?>">
             </div>
             <div class="footer-center">
-                <?phpecho $OUTPUT->standard_footer_html();?>
+                <?php echo $OUTPUT->standard_footer_html();?>
             </div>
             <div class="connect">
                 <h3>Connect with us</h3>

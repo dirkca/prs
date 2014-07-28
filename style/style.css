@@ -76,6 +76,7 @@ input[type="color"],
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; 
+    height: 47px;
 }
 .adminsearchform input[type="submit"]{
     background-color: transparent;
@@ -284,6 +285,10 @@ input.text:focus, .form-textarea textarea:focus {
     display: block;
     margin-bottom: 5px;
     margin-top: 15px;
+}
+fieldset.coursesearchbox label {
+    color: #fff;
+    display: inline;
 }
 /********************* FOOTER *************************/
 #enticers {

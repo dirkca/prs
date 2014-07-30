@@ -290,6 +290,9 @@ fieldset.coursesearchbox label {
     color: #fff;
     display: inline;
 }
+.user-enroller-panel {
+    z-index: 4500;
+}
 /********************* FOOTER *************************/
 #enticers {
   width: 100%;

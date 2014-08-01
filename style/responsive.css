@@ -191,11 +191,9 @@
         width: 245px;
     }
     
-    /*#region-main {
-        float: none;
-        padding-left: 3px;
-        padding-right: 3px;
-    }*/
+    #header .logo_and_nav #logo {
+        top: 17px !important;
+    }
 
 }
 @media only screen and (min-width : 970px) { 

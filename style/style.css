@@ -293,6 +293,11 @@ fieldset.coursesearchbox label {
 .user-enroller-panel {
     z-index: 4500;
 }
+#adminthemeselector img {
+    border: 0 none;
+    vertical-align: middle;
+    width: 350px;
+}
 /********************* FOOTER *************************/
 #enticers {
   width: 100%;

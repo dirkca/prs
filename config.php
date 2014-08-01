@@ -31,7 +31,7 @@ $THEME->supportscssoptimisation = false;
 $THEME->yuicssmodules = array();
 $THEME->enable_dock = true;
 $THEME->editor_sheets = array();
-$THEME->javascripts = array('jquery-1.10.0','jquery.easing.1.3','jqueryrotate');
+$THEME->javascripts = array('jqueryrotate');
 $THEME->rendererfactory = 'theme_overridden_renderer_factory';
 $THEME->csspostprocess = 'theme_prs_process_css';
 

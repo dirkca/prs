@@ -92,12 +92,15 @@
             <div class="clear"></div>
         </div><!--logo_and_nav-->
     </div><!--h-cont-->
-    
+     <!-- 
     <div id="banner_images">
         <div class="cont2">
             <img class="img1" src="<?php echo $OUTPUT->pix_url('b_1', 'theme'); ?>" style="transform: rotate(0deg); top: 64px;" />
             <img class="img2" src="<?php echo $OUTPUT->pix_url('b_2', 'theme'); ?>" style="transform: rotate(11deg); top: 67px;" />
-            <img class="img3" src="<?php echo $OUTPUT->pix_url('b_3', 'theme'); ?>" style="transform: rotate(-7deg); top: 21px;"/>
+            <img class="img3" src="<?php echo $OUTPUT->pix_url('b_3', 'theme'); ?>" style="transform: rotate(-7deg); top: 21px;"/>    
+    -->
+           
+   
            
         </div><!-- cont2 -->
         <div id="banner_overlay"></div>

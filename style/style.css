@@ -79,10 +79,17 @@ input[type="color"],
     height: 47px;
 }
 .adminsearchform input[type="submit"]{
-    background-color: transparent;
+    /*background-color: transparent;
     background-image: linear-gradient(to bottom, #fff, #4284e0);
-    background-repeat: repeat-x;
+    background-repeat: repeat-x; */
+    background: #4284e0 ;
+    color: #fff;
 }
+.adminsearchform input[type="submit"]:hover{
+    text-decoration: underline;
+}
+
+
 #searchform_button ,.form-buttons .form-submit ,#id_submitbutton,
 input.form-submit, input#id_submitbutton, input#id_submitbutton2, .path-admin .buttons input[type="submit"], td.submit input
 {

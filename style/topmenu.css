@@ -149,7 +149,8 @@
   width: 149px;
   height: 149px;
   margin: 0 0 0 20px;
-  top: 20px;
+  /*top: 20px;*/
+  top: 0px;
   position: absolute;
   text-indent: -9000px;
   background: url([[pix:theme|logo-palliser]]) no-repeat 0 0;

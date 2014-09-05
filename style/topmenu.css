@@ -192,7 +192,22 @@ box-shadow: 0 3px 3px rgba(10,10,10,.8); }
 #header #banner_images .img2 { left: 243px; top: 390px;width: 361px; }
 #header #banner_images .img3 { right: 0; top: 375px;   width: 320px; }
 
+/******* UPDATE ************/
+.h-cont2 {
+    margin: 0 auto;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+}
 
+#header .logo_and_nav #logo {
+    margin: 7px 0 0 20px;
+}
+#header .logo_and_nav #main_nav2 {
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
+}
 
 /****************************/
 @media only screen and (max-width : 930px) {

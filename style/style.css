@@ -254,6 +254,15 @@ input.text:focus, .form-textarea textarea:focus {
     float: right;
     padding: 6px 15px;
 }
+
+.block .block_tree.list, .block .block_tree li ul{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.block ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
 /******************** MAIN ***********************/
 #region-main  div {
     padding-top: 7px;

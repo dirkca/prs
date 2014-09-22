@@ -1,5 +1,5 @@
 <div id="header">
-    <div id="quicklinks">
+   <!-- <div id="quicklinks">
       <div class="h-cont">
       <ul>
         <li class="last"><!--<a href="#">Contact</a>--></li>
@@ -71,7 +71,11 @@
                     <option value="http://vpes.ca">Vulcan Prairieview Elementary School</option>
                     </select>
                     <div class="select_mask">School Websites</div>
+<<<<<<< HEAD
                 </div><!-- .select_contain
+=======
+                </div>
+>>>>>>> origin/master
             </li>
                                 
            <li class="children"><a class="quicklinks" href="#">Link2</a></li>
@@ -80,31 +84,29 @@
                             
            <li class="first">Quicklinks:</li>-->
       </ul>
-      </div><!--h-cont-->
-    </div><!--quicklinks-->
+      </div>
+    </div>-->
     
     <div class="h-cont2">
         <div class="logo_and_nav">
             <div id="logo"><a href="/">Palliser</a></div>
-                <div id="main_nav2"><ul>
-                         <li class="navbar-text"><?php echo $OUTPUT->login_info() ?></li> 
-                </ul></div> 
-            <div class="clear"></div>
+            <div id="text"> Welcome to the Palliser Regional School Moodle</div>
+            <div id="main_nav2">
+                <ul><li class="navbar-text"><?php echo $OUTPUT->login_info() ?></li></ul>
+            </div> 
+         <div class="clear"></div>
         </div><!--logo_and_nav-->
-    </div><!--h-cont-->
+    </div><!--h-cont2-->
      <!-- 
     <div id="banner_images">
         <div class="cont2">
             <img class="img1" src="<?php echo $OUTPUT->pix_url('b_1', 'theme'); ?>" style="transform: rotate(0deg); top: 64px;" />
             <img class="img2" src="<?php echo $OUTPUT->pix_url('b_2', 'theme'); ?>" style="transform: rotate(11deg); top: 67px;" />
             <img class="img3" src="<?php echo $OUTPUT->pix_url('b_3', 'theme'); ?>" style="transform: rotate(-7deg); top: 21px;"/>    
-    -->
-           
-   
-           
-        </div><!-- cont2 -->
+    
+        </div>
         <div id="banner_overlay"></div>
-    </div><!-- #banner -->
+    </div>-->
     
   </div><!--#header--> 
   

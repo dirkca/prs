@@ -177,6 +177,15 @@
   float: right; 
 
   }
+  
+#header .logo_and_nav #text {
+    color: #fff;
+    font-size: 1.125em;
+    font-weight: normal;
+    line-height: 40px;
+    margin-left: 23%;
+    padding-top: 5%;
+}
   /*************************************/ 
 #header #banner_images { position: relative; height: 255px; margin: 0 0 0 0; overflow: hidden; z-index: 0; }
 #header #banner_images #banner_overlay { width: 100%; height: 100%; position: absolute; z-index: 20;
@@ -194,6 +203,7 @@ box-shadow: 0 3px 3px rgba(10,10,10,.8); }
 
 /******* UPDATE ************/
 .h-cont2 {
+<<<<<<< HEAD
 margin: 0 auto;
 max-width: 100%;
 position: relative;
@@ -207,6 +217,23 @@ float: right;
 margin-right: 5%;
 margin-top: 5%;
 	}
+=======
+    margin: 0 auto;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+}
+
+#header .logo_and_nav #logo {
+    margin: 7px 0 0 20px;
+}
+#header .logo_and_nav #main_nav2 {
+    float: right;
+    margin-right: 5%;
+    margin-top: 4%;
+}
+
+>>>>>>> origin/master
 /****************************/
 @media only screen and (max-width : 930px) {
     .h-cont,.h-cont2 {

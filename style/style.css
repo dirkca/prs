@@ -434,4 +434,11 @@ div#dock {
     }
    
 }
+/********************LOGO***********************/
+.h-cont2 {
+    /*margin: 0 auto;*/
+    max-width: 800px;
+    position: relative;
+    width: 800px;
+}
  

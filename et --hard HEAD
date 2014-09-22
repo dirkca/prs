@@ -1,0 +1,202 @@
+commit c7dd41d6d82bddb43c37f859aee02d5213cef179
+Merge: d0d8d9f e53e955
+Author: root <root@debian>
+Date:   Tue Sep 9 22:49:37 2014 -0600
+
+    Merge branch 'master' of https://github.com/dirkca/prs
+    
+    Conflicts:
+    	layout/topmenu.php
+
+commit d0d8d9f7dfb8d07ba424a07072eb69b930d869c3
+Author: root <root@debian>
+Date:   Tue Sep 9 22:43:25 2014 -0600
+
+    uncommented top menu
+
+commit e53e955bf36193d36c4eb21ebf76061029432cfb
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Fri Sep 5 20:02:22 2014 +0000
+
+    Update topmenu.css
+
+commit 985a2c2e8173329ce51d3c72800a99982195576f
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Fri Sep 5 19:59:43 2014 +0000
+
+    Update topmenu.php
+
+commit ed6a082369704055110faff6cb1ab14a50647ea7
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Fri Aug 29 21:24:26 2014 +0000
+
+    Update style.css
+
+commit 4b3fd63d77b92f64be073a516064275cb712a718
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Fri Aug 29 21:23:14 2014 +0000
+
+    Update topmenu.css
+
+commit a213144923fe90bbea1838fc1ad95b2ab9b8ed02
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Fri Aug 29 21:22:23 2014 +0000
+
+    Update topmenu.php
+
+commit 340b142087b9fbc3c1e54335df458e1c4b7d23af
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Fri Aug 1 14:30:00 2014 +0000
+
+    Update maintenance.php
+
+commit acb8a6eda01f35aee416babf24f1e7356b5bc55f
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Fri Aug 1 14:29:46 2014 +0000
+
+    Update frontpage.php
+
+commit 07a73227c28fd02c67622ac1b83686dc13b4a4fd
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Fri Aug 1 14:29:15 2014 +0000
+
+    Update columns3.php
+
+commit 4c42fc0a74726c85fa7423ce8cd99fbe49fda434
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Fri Aug 1 14:28:57 2014 +0000
+
+    Update columns2.php
+
+commit d1f2ce77868fb90fb552afacf27784f067144fa9
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Fri Aug 1 14:28:34 2014 +0000
+
+    Update columns1.php
+
+commit c394804ccaf44b7aa619daccdc17b9b5658200fc
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Fri Aug 1 14:28:06 2014 +0000
+
+    Create course.php
+
+commit fb6577d5468f9fb70ec55cd07a36c3b1ee6f91a2
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Fri Aug 1 14:26:57 2014 +0000
+
+    Update config.php
+
+commit 30561204c7b9f996e5a6b7292f629b99124f93de
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Fri Aug 1 14:26:10 2014 +0000
+
+    Update config.php
+
+commit d30f93f91e5e8be3fdc937a60d11e96523111474
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Fri Aug 1 14:25:42 2014 +0000
+
+    Update responsive.css
+
+commit 4d6c2f4f77daaa620b5f8f0cca97eb8553e6f0cd
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Fri Aug 1 14:25:02 2014 +0000
+
+    Update style.css
+
+commit 3b8a2aa3831492df018cbbd5c10f3e84078f2f5f
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Wed Jul 30 05:46:51 2014 +0000
+
+    Update style.css
+
+commit 99f12a13977e827e4f6c47ef0f54fa6f9dfc7d5b
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Mon Jul 28 23:28:07 2014 +0000
+
+    Update style.css
+
+commit 1c046aa655d0c5abab4a7c2a579d725acbb4df69
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Mon Jul 28 14:47:02 2014 +0000
+
+    Update maintenance.php
+
+commit af152ca0045e86debbd806813fbcf1b71f9c3f80
+Author: dirkca <meyer.dirk@gmail.com>
+Date:   Sun Jul 27 21:26:48 2014 -0600
+
+    Revert "Revert "add prs theme""
+    
+    This reverts commit 3b0d81aafcb1b2edfe15422936e6aaa04c0ace2f.
+
+commit 3b0d81aafcb1b2edfe15422936e6aaa04c0ace2f
+Author: dirkca <meyer.dirk@gmail.com>
+Date:   Sun Jul 27 21:26:27 2014 -0600
+
+    Revert "add prs theme"
+    
+    This reverts commit d482acf2e615786d024e44ea1c93e125158b6775.
+
+commit d482acf2e615786d024e44ea1c93e125158b6775
+Author: dirkca <meyer.dirk@gmail.com>
+Date:   Sun Jul 27 21:19:55 2014 -0600
+
+    add prs theme
+
+commit a8f3d41a143984114d23e91ec77dccf3e8002594
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Mon Jul 28 01:35:32 2014 +0000
+
+    Delete topmenu.css
+
+commit 09e56c3871083dddac9c363a160ecdb3dc2de0e2
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Mon Jul 28 01:34:34 2014 +0000
+
+    Revert "Delete topmenu.css"
+    
+    This reverts commit 8421948d1035f4d46111f399b8f9d47b5f0223b0.
+
+commit 8421948d1035f4d46111f399b8f9d47b5f0223b0
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Wed Jul 23 15:13:15 2014 +0000
+
+    Delete topmenu.css
+
+commit 60622be963ae89d5cf491117c305e3f71ba37e38
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Wed Jul 23 15:13:09 2014 +0000
+
+    Delete style.css
+
+commit b6dbacf8e699189df9195986f27338d7fde744c2
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Wed Jul 23 15:13:01 2014 +0000
+
+    Delete fonts.css
+
+commit a249ea3860d66cf6a94a4e0355b0bb0cc3fff743
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Wed Jul 23 15:12:56 2014 +0000
+
+    Delete custom.css
+
+commit d3fc618feb8d1128c54c6f5242572ee72c7d500b
+Merge: 95d219b 83d4e48
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Wed Jul 23 15:09:57 2014 +0000
+
+    Merge branch 'master' of github.com:dirkca/prs
+
+commit 95d219bb957464869a87e79c8e4e0c1d4da2c734
+Author: houdanorel <houdanorel8@gmail.com>
+Date:   Wed Jul 23 15:01:45 2014 +0000
+
+    initial commit
+
+commit 83d4e488ec5f0b2374bf1bd95edc397bde989492
+Author: dirkca <meyer.dirk@gmail.com>
+Date:   Wed Jul 23 08:40:56 2014 -0600
+
+    Initial commit

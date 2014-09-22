@@ -2,10 +2,10 @@
     <div id="quicklinks">
       <div class="h-cont">
       <ul>
-        <li class="last"><a href="#">Contact</a></li>
+        <li class="last"><!--<a href="#">Contact</a>--></li>
         
         
-        <li class="children sw"><a href="#">School Websites</a>
+        <!--<li class="children sw"><a href="#">School Websites</a>
               <ul class="collapsed" style="display: none;">
               <li class="first"><a href="http://arrowwoodschool.ca">Arrowwood School</a></li>
               <li class=""><a href="http://barons.prs26.ca">Barons School</a></li>
@@ -71,14 +71,14 @@
                     <option value="http://vpes.ca">Vulcan Prairieview Elementary School</option>
                     </select>
                     <div class="select_mask">School Websites</div>
-                </div><!-- .select_contain -->
+                </div><!-- .select_contain
             </li>
                                 
            <li class="children"><a class="quicklinks" href="#">Link2</a></li>
                                 
            <li class="children"><a class="quicklinks" href="#">Link1</a></li>
                             
-           <li class="first">Quicklinks:</li>
+           <li class="first">Quicklinks:</li>-->
       </ul>
       </div><!--h-cont-->
     </div><!--quicklinks-->

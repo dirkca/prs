@@ -86,7 +86,8 @@
     <div class="h-cont2">
         <div class="logo_and_nav">
             <div id="logo"><a href="/">Palliser</a></div>
-                <div id="main_nav2">
+            <div id="text"> Welcome to the Palliser Regional School Moodle</div>
+            <div id="main_nav2">
                 <ul><li class="navbar-text"><?php echo $OUTPUT->login_info() ?></li></ul>
             </div> 
          <div class="clear"></div>
